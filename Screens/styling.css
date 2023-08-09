@@ -1,0 +1,146 @@
+
+body{
+    background-color: rgba(243, 241, 241, 0.876);
+}
+
+.logo {
+    font-weight: bold;
+    text-align: center;
+    color: rgb(119, 18, 119);
+}
+
+.logo span {
+    color: orange;
+}
+
+.heading2 {
+    color: orange;
+    text-align: center;
+    margin: 40px 5px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container2 input {
+    padding: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.container3 p {
+    color: orange;
+    margin: 10px 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container4 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-top: 10px;
+
+}
+
+.container4 p {
+    font-size: 15px;
+    font-weight: bold;
+    color: orange;
+    margin-top: 5px;
+}
+
+.container4 input {
+    padding: 2px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.container4a h4{
+
+    margin: 25px 5px;
+    text-align: center;
+    color: rgb(119, 18, 119);
+}
+
+.container4a span{
+    color:orange;
+}
+
+thead tr{
+    background-color: rgb(119, 18, 119);
+    color: white;
+}
+
+tbody tr{
+    background-color: orange;
+    color: white;
+}
+
+.container5{
+    margin: 10px 5px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.container5 h3{
+    color: rgb(119, 18, 119);
+    font-weight: bold;
+    
+}
+
+.container5a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.container5a h5{
+    color: orange;
+}
+
+.container5a h6{
+    color: green;
+}
+
+.container6{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.container6 p{
+    margin:5px 25px;
+}
+
+.lastContainer p{
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lastContainer span{
+    font-weight: normal;
+}
+
+@media screen and (max-width:550px) {
+    .container2, .container6 {
+        display: flex;
+        flex-direction: column;
+
+    }
+}

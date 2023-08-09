@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bill</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #ececec;">
+
+  <div style="max-width: 800px; margin: 0 auto; padding: 20px;">
+    <div style="text-align: center; margin-bottom: 10px;">
+      <img src="mainlogo.png" alt="Logo" width="150" height="30" style="width: 150px; height: 30px;">
+    </div>
+
+    <div style="margin-bottom: 10px;">
+      <input type="text" placeholder="Name" style="width: 100%; padding: 8px; margin: 5px 0; border: 1px solid gray; border-radius: 5px;">
+      <input type="text" placeholder="Contact No" style="width: 100%; padding: 8px; margin: 5px 0; border: 1px solid gray; border-radius: 5px;">
+    </div>
+
+    <div style="margin-bottom: 10px;">
+      <p>Date: <span id="selectedDate" style="font-weight: bold;">YYYY-MM-DD</span></p>
+      <p>Time: <span id="selectedTime" style="font-weight: bold;">HH:MM</span></p>
+    </div>
+
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <input type="text" placeholder="Cashier" style="width: 100%; padding: 8px; margin: 5px 0; border: 1px solid gray; border-radius: 5px;" id="cashierInput">
+    </div>
+
+    <div style="margin-bottom: 10px;">
+      <table style="width: 100%; border-collapse: collapse;">
+        <thead>
+          <tr>
+            <th style="border: 1px solid gray; padding: 8px; text-align: center;">No.</th>
+            <th style="border: 1px solid gray; padding: 8px; text-align: center;">Quantity</th>
+            <th style="border: 1px solid gray; padding: 8px; text-align: center;">Product Name</th>
+            <th style="border: 1px solid gray; padding: 8px; text-align: center;">Price</th>
+            <th style="border: 1px solid gray; padding: 8px; text-align: center;">Total Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Table rows for bill details -->
+        </tbody>
+      </table>
+    </div>
+
+    <div style="margin-bottom: 10px;">
+      <p>Grand Total: <span id="totalPrice" style="font-weight: bold;">0</span></p>
+      <p>Payment: CASH <span id="cashAmount" style="font-weight: bold;">0</span></p>
+      <p>Change: <span id="changeAmount" style="font-weight: bold;">0</span></p>
+    </div>
+
+    <div style="margin-bottom: 10px;">
+      <p>Status: <span id="status" style="font-weight: bold;">Unpaid</span></p>
+    </div>
+
+    <div style="text-align: center; margin-bottom: 20px;">
+      <button style="background-color: #2196F3; color: white; padding: 10px 20px; border: none; border-radius: 5px; margin-right: 10px; cursor: pointer;" id="printButton">Print</button>
+      <button style="background-color: #2196F3; color: white; padding: 10px 20px; border: none; border-radius: 5px; margin-right: 10px; cursor: pointer;" id="shareButton">Share</button>
+      <button style="background-color: #2196F3; color: white; padding: 10px 20px; border: none; border-radius: 5px; margin-right: 10px; cursor: pointer;" id="savePdfButton">Save as PDF</button>
+    </div>
+
+    <div style="margin-bottom: 10px;">
+      <p>Contact: 03315045467 , 03335253608</p>
+      <p>Location: Shop No.32 Makkah Cloth Market Raja Bazar Rawalpindi</p>
+    </div>
+
+    <div style="margin-bottom: 10px;">
+      <p>**FRIDAY IS OFF**</p>
+      <p>NO RETURN**</p>
+      <p>CHANGE WITHIN 7 DAYS**</p>
+    </div>
+
+  </div>
+
+  <script>
+    // Add event listeners and implement functionality here
+  </script>
+</body>
+</html>
